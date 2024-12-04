@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Clip2
+
+  Created by apple on 2024/12/4.
+  
+*/
+"About Clip²" = "關於 Clip²";
+"Quit Clip²" = "結束 Clip²";
+"Settings…" = "設定…";
+"Clip² Settings" = "Clip² 設定";
+"Update" = "更新設定";
+"Check for Updates…" = "檢查更新…";
+"Automatically check for updates" = "自動檢查程式更新";
+"Automatically download updates" = "自動下載程式更新";
+"General" = "一般設定";
+"Launch at Login" = "登入時啟動";
+"Show Clip² on Dock" = "在程式塢中顯示 Clip²";
+"Show Clip² on Menu Bar" = "在選單列上顯示 Clip²";
+"Hotkey" = "快速鍵設定";
+"Copy to Clip²" = "複製到 Clip²";
+"Cut to Clip²" = "剪下到 Clip²";
+"Paste from Clip²" = "從 Clip² 貼上";

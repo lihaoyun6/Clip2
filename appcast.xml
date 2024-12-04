@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Clip2</title>
+        <item>
+            <title>v0.1.0</title>
+            <pubDate>Wed, 04 Dec 2024 23:43:36 +0800</pubDate>
+            <sparkle:version>01</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/lihaoyun6/Clip2/releases/download/0.1.0/Clip2_v0.1.0.dmg" length="1959489" type="application/octet-stream" sparkle:edSignature="1LqXHjD21M8nxrLr4v9QTcBVb43wvMBahJj9Sx6FfAWFv9pspsau6JDKElmUjdNnjyRJcgAI2XEBIpYf6Q2FBw=="/>
+        </item>
+    </channel>
+</rss>

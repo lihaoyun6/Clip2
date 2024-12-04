@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Clip2
+
+  Created by apple on 2024/12/4.
+  
+*/
+CFBundleDisplayName = "Clip²";
+CFBundleName = "Clip²";
