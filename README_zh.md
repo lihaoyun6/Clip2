@@ -14,7 +14,7 @@
 可[点此前往](../../releases/latest)下载最新版安装文件. 或使用homebrew安装:  
 
 ```bash
-brew install lihaoyun6/tap/Clip2
+brew install lihaoyun6/tap/clip2
 ```
 
 ### 使用:
