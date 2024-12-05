@@ -33,14 +33,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarItem.isVisible = showMenubar
         
         axPerm = AXIsProcessTrustedWithOptions([kAXTrustedCheckOptionPrompt.takeRetainedValue(): true] as NSDictionary)
-
-        KeyboardShortcuts.setShortcut(KeyboardShortcuts.Shortcut(.x, modifiers: [.command, .control]), for: .cut)
-        KeyboardShortcuts.setShortcut(KeyboardShortcuts.Shortcut(.c, modifiers: [.command, .control]), for: .copy)
-        KeyboardShortcuts.setShortcut(KeyboardShortcuts.Shortcut(.v, modifiers: [.command, .control]), for: .paste)
+        
         KeyboardShortcuts.onKeyDown(for: .cut) { ClipboardManager.shared.copyToClip2(cut: true) }
         KeyboardShortcuts.onKeyDown(for: .copy) { ClipboardManager.shared.copyToClip2() }
         KeyboardShortcuts.onKeyDown(for: .paste) { ClipboardManager.shared.pasteFromClip2() }
         
+        tips("Clip² will use these hotkeys by default:\n\nControl + Command + X to Cut\nControl + Command + C to Copy\nControl + Command + V to Paste\n\nAnd you can change them in settings.", id: "clip2.hotkeys.tips")
     }
     
     func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows: Bool) -> Bool {
@@ -89,7 +87,7 @@ extension NSMenuItem {
 }
 
 extension KeyboardShortcuts.Name {
-    static let cut = Self("cut")
-    static let copy = Self("copy")
-    static let paste = Self("paste")
+    static let cut = Self("cut", default: .init(.x, modifiers: [.command, .control]))
+    static let copy = Self("copy", default: .init(.c, modifiers: [.command, .control]))
+    static let paste = Self("paste", default: .init(.v, modifiers: [.command, .control]))
 }

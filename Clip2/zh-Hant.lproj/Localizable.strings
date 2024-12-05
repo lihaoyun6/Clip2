@@ -21,3 +21,6 @@
 "Copy to Clip²" = "複製到 Clip²";
 "Cut to Clip²" = "剪下到 Clip²";
 "Paste from Clip²" = "從 Clip² 貼上";
+"OK" = "好";
+"Don't remind me again" = "不再提醒";
+"Clip² will use these hotkeys by default:\n\nControl + Command + X to Cut\nControl + Command + C to Copy\nControl + Command + V to Paste\n\nAnd you can change them in settings." = "Clip² 將佔用下列三個預設快速鍵:\n\nControl + Command + C 用於複製\nControl + Command + X 用於剪下\nControl + Command + V 用於貼上\n\n你也可以隨時在設定中修改快速鍵.";
