@@ -3,8 +3,7 @@
 <img src="./Clip2/Assets.xcassets/AppIcon.appiconset/icon_512x512.png" width="200" height="200" />
 <h1 align="center">Clip²</h1>
 <h3 align="center">Add a second clipboard to your macOS<br><br>
-<a href="./README_zh.md"><img src="https://img.shields.io/badge/中文-README-green" height="24" alt="中文版本"/></a>
-<a href="https://lihaoyun6.github.io/Clip2/"><img src="https://img.shields.io/badge/Leading%20Page-blue" height="24" alt="Leading Page"/></a></h3> 
+<a href="./README_zh.md"><img src="https://img.shields.io/badge/中文-README-green" height="24" alt="中文版本"/></a></h3> 
 </p>
 
 ## Installation and Usage

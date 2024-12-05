@@ -2,8 +2,7 @@
 <p align="center">
 <img src="./Clip2/Assets.xcassets/AppIcon.appiconset/icon_512x512.png" width="200" height="200" />
 <h1 align="center">Clip²</h1>
-<h3 align="center">为 macOS 添加第二个剪贴板<br><br>
-<a href="https://lihaoyun6.github.io/Clip2/"><img src="https://img.shields.io/badge/软件主页-blue" height="24" alt="软件主页"/></a></h3> 
+<h3 align="center">为 macOS 添加第二个剪贴板</h3> 
 </p>
 
 ## 安装与使用
