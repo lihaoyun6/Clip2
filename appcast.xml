@@ -3,6 +3,24 @@
     <channel>
         <title>Clip2</title>
         <item>
+            <title>v0.1.1</title>
+            <pubDate>Thu, 05 Dec 2024 11:01:29 +0800</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <style>ul{margin-top: 0;margin-bottom: 7;padding-left: 18;}</style><ul>
+                <li>修复了每次启动后快捷键变回默认的bug.</li>
+                </ul><ul>
+                <li>Fixed: Hotkeys reset to default after each launch.</li>
+                </ul><img src="https://github.com/lihaoyun6/Topit/raw/main/img/donate.png" width="300"/>
+            ]]></description>
+            <enclosure url="https://github.com/lihaoyun6/Clip2/releases/download/0.1.1/Clip2_v0.1.1.dmg" length="1964746" type="application/octet-stream" sparkle:edSignature="dGMSsQE0r6QAWWdtJ7F0+ykasiq34M+5ZOGF+hb1WfQEl13Qvg1PGeRZp3bO8yZkhOXXduFN8N42PUPDl7w8AA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/lihaoyun6/Clip2/releases/download/0.1.1/Update11-01.delta" sparkle:deltaFrom="01" length="94022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="864752" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5gZQ5CFk1+sLEphecfD4iSBSvFlmouVkT4IUs16gtf5j+4nhZ9vKFmJu5pf+b5XbGOAqPcKWtSIH29Z7jVdQDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>v0.1.0</title>
             <pubDate>Wed, 04 Dec 2024 23:43:36 +0800</pubDate>
             <sparkle:version>01</sparkle:version>
